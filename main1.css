@@ -29,7 +29,14 @@
     z-index: 5;
     width:100%;
     height:100%;
+    /* 숙제 */
+    /* display: none;
+    margin-top: -1200px; */
+    /* --------요즘 트렌드 css만으로 액션함*/
     display: none;
+    /* transition: all 1s; */
+     /* margin-top: -1000px; 마진사용하면 느림 */
+    /* transform: translateY(-1000px); */
 }
 
 .white-background{
@@ -70,3 +77,7 @@
     margin-left: -150px;
 }
 
+.balck-add{
+    transition: all 1s ;
+    transform: translateY(-1000px);
+}
